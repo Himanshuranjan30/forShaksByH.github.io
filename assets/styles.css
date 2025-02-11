@@ -17,9 +17,11 @@
 html {
   font-size: 62.5%;
   line-height: 1.6rem;
-  font-family: "Pacifico", cursive;
+  font-family: 'Dancing Script', cursive;
   height: 100vh;
 }
+
+
 
 html::-webkit-scrollbar {
   width: 2px;
@@ -90,6 +92,8 @@ canvas {
   flex-direction: column;
   align-items: center;
 }
+
+
 
 .music-control {
   text-align: center;

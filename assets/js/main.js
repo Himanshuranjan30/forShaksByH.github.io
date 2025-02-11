@@ -46,6 +46,7 @@ function start() {
 
   btnYes.onclick = () => {
     popup.classList.add("show");
+    document.querySelector(".music").play();
   };
   btnClose.onclick = () => {
     popup.classList.remove("show");
